@@ -30,6 +30,8 @@ RUN \
        libssl-dev \
        zlib1g-dev \
        libjson-c-dev \
+       pi-bluetooth \
+       avahi-utils \
     && git clone --branch "v${LIBWEBSOCKETS_VERSION}" --depth=1 \
         https://github.com/warmcat/libwebsockets \
     && cd libwebsockets \
